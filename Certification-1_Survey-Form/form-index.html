@@ -1,0 +1,143 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>Survey form</title>
+      <link rel="stylesheet" href="form-css.css" />
+    </head>
+    <body>
+      <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </header>
+
+      <div class="survey-form">
+        <main>
+          <form id="survey-form">
+            <fieldset>
+              <label id="name-label"
+                >Name
+                <input
+                  class="input-block"
+                  type="text"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+              /></label>
+              <label id="email-label" class="personal-data"
+                >Email
+                <input
+                  class="input-block"
+                  type="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+              /></label>
+              <label id="number-label"
+                >Age <span class="details">(optional)</span>
+                <input
+                  class="input-block"
+                  type="number"
+                  id="number"
+                  min="13"
+                  max="120"
+                  placeholder="Age"
+              /></label>
+            </fieldset>
+            <fieldset>
+              <label
+                >Which option best describes your current role?
+                <select id="dropdown" class="current-role">
+                  <option value="">Select your current role</option>
+                  <option value="1">Student</option>
+                  <option value="2">Full time job</option>
+                  <option value="3">Full time learner</option>
+                  <option value="4">Prefer not to say</option>
+                  <option value="5">Other</option>
+                </select>
+              </label>
+            </fieldset>
+            <fieldset class="radio-block">
+              <p class="iside-form-paragraph">
+                Would you recommend freeCodeCamp to a friend?
+              </p>
+              <label
+                ><input type="radio" name="recomendation" value="definitely" />
+                Definitely</label
+              >
+              <label
+                ><input type="radio" name="recomendation" value="maby" />
+                Maybe</label
+              >
+              <label
+                ><input type="radio" name="recomendation" value="not-sure" />
+                Not sure</label
+              >
+            </fieldset>
+            <p class="iside-form-paragraph">
+              What would you like to see improved?
+              <span class="details">(Check all that apply)</span>
+            </p>
+            <input type="checkbox" value="front-end" />
+            <label for="front-end" class="inlane-label"
+              >Front-end Projects</label
+            >
+            <br />
+            <input type="checkbox" value="back-end" />
+            <label for="back-end" class="inlane-label">Back-end Projects</label>
+            <br />
+            <input type="checkbox" value="data-visualization" />
+            <label for="data-visualization" class="inlane-label"
+              >Data Visualization</label
+            >
+            <br />
+            <input type="checkbox" value="challenges" />
+            <label for="challenges" class="inlane-label">Challenges</label>
+            <br />
+            <input type="checkbox" value="open-source-community" />
+            <label for="open-source-community" class="inlane-label"
+              >Open Source Community</label
+            >
+            <br />
+            <input type="checkbox" value="gitter-help-rooms" />
+            <label for="gitter-help-rooms" class="inlane-label"
+              >Gitter Help Rooms</label
+            >
+            <br />
+            <input type="checkbox" value="videos" />
+            <label for="videos" class="inlane-label">Videos</label>
+            <br />
+            <input type="checkbox" value="city-meetups" />
+            <label for="city-meetups" class="inlane-label">City Meetuos</label>
+            <br />
+            <input type="checkbox" value="wiki" />
+            <label for="wiki" class="inlane-label">Wiki</label>
+            <br />
+            <input type="checkbox" value="forum" />
+            <label for="forum" class="inlane-label">Forum</label>
+            <br />
+            <input type="checkbox" value="additional-courses" />
+            <label for="additional-courses" class="inlane-label"
+              >Additional Courses</label
+            >
+            <p class="iside-form-paragraph">Any comments or suggestions?</p>
+            <textarea rows="3" placeholder="Enter your comment..."></textarea>
+            <input type="submit" id="submit" value="Submit" />
+          </form>
+        </main>
+      </div>
+      <footer>
+        <p class="contact-info">
+          Visit my
+          <a
+            href="https://www.linkedin.com/in/kseniia-zhykina/"
+            target="_blank"
+          >
+            Linkedin account</a
+          >
+        </p>
+      </footer>
+    </body>
+  </html></DOCTYPE
+>
